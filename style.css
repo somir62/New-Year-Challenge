@@ -1,0 +1,490 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header */
+header, .party-section, .Timepoint-section, .portfolio-section, .getInfo-section, .celebration-section{
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* Banner section */
+.banner-container{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    position: relative;
+    background: linear-gradient(180deg, rgb(5, 0, 12), rgba(29, 13, 61, 0));
+    border-radius: 16px;
+}
+
+.banner-img, .party-img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+.cover-img-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: "Merriweather", serif;
+    text-align: center;
+    
+}
+.cover-img-content h5{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 40px;
+}
+.cover-img-content h2{
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 40px;
+    line-height: 95px;
+}
+
+/* offer section */
+.offer-section{
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    
+}
+.offer-section h1{
+    color: rgb(255, 0, 0);
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 107px;
+}
+.offer-section p{
+    color: rgb(255, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 29px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.offer-section h3{
+    color: rgb(7, 2, 17);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 3rem;
+}
+/* Party Section */
+.party-section{
+    position: relative;
+    
+}
+.party-img{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    width: 100%;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+    position: relative;
+}
+
+.party-content{
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 255, 255);
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+
+}
+.party-content h2{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    font-family: "Merriweather", serif;
+}
+.party-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.party-content button{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+/* Location section */
+.Timepoint-section{
+    border-radius: 1rem;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    margin-top: 8rem;
+    height: 482px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.timestamp-content{
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.timestamp{
+    color: rgb(255, 0, 0);
+}
+.timestamp-content button{
+    width: 180px;
+    height: 56px;
+    margin: 8;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    margin-top: 4rem;
+}
+
+/* Celebration Section */
+.celebration-section{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coming-soon{
+    max-width: 450px;
+}
+.coming-soon h2, .celebration-offer p{
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+.celebration-offer{
+    max-width: 276px;
+}
+.celebration-img{
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 1.5rem;
+}
+.celebration-img img{
+    width: 364.84px;
+    height: 364.84px;
+}
+
+.celebration-offer h2{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 58px;
+}
+.celebration-offer img{
+    width: 100px;
+    height: 100px;
+}
+
+/* Discount Section */
+.discount-section{
+    margin-top: 8rem;
+    width: 90%
+}
+.discount-content{
+    max-width: 1068px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.discount-content h4{
+    color: rgb(7, 2, 17);
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 29px;
+}
+.discount-content h1{
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 91px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 1rem;
+}
+.holidays{
+    color: rgb(255, 0, 0);
+}
+.discount-container{
+    width: 100%;
+    
+}
+.gift-img{
+    margin-bottom: -150px;
+    margin-left:120px;
+}
+.discount-imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.discount-imgs div {
+    display: flex;
+    flex-direction: column;
+}
+.img-container{
+    position: relative;
+    margin-top: -67px;
+}
+.discount-imgs .discount-card {
+    position: absolute; 
+    left: -150px;
+    top:40px;
+}
+.discount-imgs > div:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 55%;
+    left: 50%; 
+    left: calc(90% + 10px); 
+    transform: translate(-50%, -50%); 
+}
+.rectengle-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -82px;
+    margin-left: 90px;
+    margin-right: -58px;
+}
+.rectengle-img img{
+    width: 100%;
+    height: auto;
+}
+/* Portfolio section */
+.portfolio-section{
+    max-width: 800px;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    margin-left:5%;
+    margin-right: 5%;
+    text-align: left;
+}
+
+.portfolio-content{
+    text-align: left;
+}
+
+.portfolio-content h4, .coming-soon h4{
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 29px;
+}
+.portfolio-content h2, .coming-soon h2{
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather", serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+.portfolio-content p, .coming-soon p, .celebration-offer p, .discount-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.group-container-imgs{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.img-row{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.grid-img img{
+    width: 500px;
+    height: 500px;
+    margin: 1.8rem;
+    border-radius: 20px;
+    transition: border 0.3s ease, border-radius 0.3s ease;
+}
+.grid-img img:hover{
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+/* GetInfo section */
+.getInfo-section{
+    border-radius: 1rem;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 8rem;
+    height: 482px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+.getInfo-section img{
+    width: 100px;
+    height: 100px;
+}
+.getInfo-content{
+    max-width: 896px;
+    margin: 0 auto;
+}
+.getInfo-content h2{
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 60px;
+    margin-top: 2rem;
+}
+.getInfo-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"] {
+    flex: 0 1 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+    height: 55px;
+    padding-left: 20px;
+    border-radius: 50px 0px 0px 50px;
+    background: rgb(255, 255, 255);
+    border: none;
+}
+.container input[type="text"]::placeholder {
+    color: rgba(7, 2, 17, 0.3);
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 22px;
+    
+}
+button {
+    height: 55px;
+    padding: 4px 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    margin-left: -1rem;
+    border: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: "Inter", sans-serif;
+    line-height: 24px;
+    text-transform: capitalize;
+
+}
+/* Footer style  */
+footer{
+    width: 100%;
+    height: 609px;
+    background: rgb(7, 2, 17);
+    color: rgb(255, 255, 255);
+}
+.footer-container{
+    padding: 7rem;
+}
+.footer-content-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    max-width: 375px;
+}
+.footer-text{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+.call img, .web img{
+    width: 25px;
+    height: 25px;
+}
+.call p, .web p{
+    margin-left: 5px;
+}
+.call, .web{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hr{
+    width: 100%;
+    height: 0;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:10px
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
